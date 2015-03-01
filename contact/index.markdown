@@ -9,6 +9,9 @@ title: Contact Kevin
 ## LinkedIn
 [KevinMGranger](https://www.linkedin.com/in/kevinmgranger)
 
+## Twitter
+[@KevinMGranger](http://twitter.com/KevinMGranger)
+
 <script>
 var k = "kmg", m = "rit", g = "edu";
 var email = k + "@" + m + "." + g;
