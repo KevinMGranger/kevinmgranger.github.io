@@ -3,7 +3,7 @@ title: Kevin M Granger
 ogns: "profile: http://ogp.me/ns/profile#"
 og:
   "og:type": profile
-  "og:image": "http://kevinmgranger.me/img/kevin_granger.jpg"
+  "og:image": "http://kevinmgranger.me/img/kevin_granger_face.jpg"
   "og:image:width": 315
   "og:image:height": 315
   "profile:first_name": Kevin
@@ -13,7 +13,7 @@ og:
   "og:description": Kevin M Granger's personal site.
 ---
 
-<img class="face" alt="A picture of Kevin Granger" src="/img/kevin_granger.jpg">
+<img class="face" alt="A picture of Kevin Granger" src="/img/kevin_granger_face.jpg">
 
 I write code and design games.
 
