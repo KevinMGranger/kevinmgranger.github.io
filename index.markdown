@@ -1,5 +1,13 @@
 ---
 title: Kevin M Granger
+ogns: "profile: http://ogp.me/ns/profile#"
+og:
+  "og:type": profile
+  "og:image": "http://kevinmgranger.me/img/kevin_granger.jpg"
+  "profile:first_name": Kevin
+  "profile:last_name": Granger
+  "profile:username": KevinMGranger
+  "og:url": "http://kevinmgranger.me/"
 ---
 
 <img class="face" alt="A picture of Kevin Granger" src="/img/kevin_granger.jpg">
