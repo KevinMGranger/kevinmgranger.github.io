@@ -1,0 +1,12 @@
+highlighter: pygments
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: pretty

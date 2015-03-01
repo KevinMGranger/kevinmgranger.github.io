@@ -1,0 +1,27 @@
+- name: curlFS
+  type: Software
+  desc: |
+    It's a common UNIX idiom to represent resources as files. Why can't webpages be the same way?
+
+    Written in C++11, curlFS unites [libcurl](http://curl.haxx.se/) and [fuse](http://fuse.sourceforge.net/),
+    so your favorite website is just a "cat" away.
+
+- name: 30 Silver
+  type: Board Game
+  pic: ThirtySilver.png
+  desc: |
+    Or, "Betraying Your Friends for Fun and for Profit".
+
+    A board game based upon the themes of betrayal, chaos, and greed.
+
+    Graphic courtesy of Nate Schwob.
+
+- name: "The BeardBrothers Proudly Present: G1"
+  type: Video Game
+  pic: beard_brothers.png
+  desc: |
+    A symmetric tower-defence game written in C# using the XNA Framework.
+
+    This was a final project for Game Software Development. I served as software architect for our group.
+
+    Art assets courtesy of Nate Schwob.
