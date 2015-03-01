@@ -4,6 +4,8 @@ ogns: "profile: http://ogp.me/ns/profile#"
 og:
   "og:type": profile
   "og:image": "http://kevinmgranger.me/img/kevin_granger.jpg"
+  "og:image:width": 399
+  "og:image:height": 399
   "profile:first_name": Kevin
   "profile:last_name": Granger
   "profile:username": KevinMGranger
