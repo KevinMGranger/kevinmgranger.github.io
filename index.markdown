@@ -8,6 +8,7 @@ og:
   "profile:last_name": Granger
   "profile:username": KevinMGranger
   "og:url": "http://kevinmgranger.me/"
+  "og:description": Kevin M Granger's personal site.
 ---
 
 <img class="face" alt="A picture of Kevin Granger" src="/img/kevin_granger.jpg">
