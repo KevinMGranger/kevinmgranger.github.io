@@ -18,8 +18,22 @@ I'm interested in software development (especially tooling), game development, a
 .face {
     width: 250px;
     border-radius: 30%;
-    float: right;
     margin-left: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
+    margin-bottom: 2%;
+}
+
+@media print, screen and (min-width: 560px) {
+    .face {
+        float: right;
+    }
+}
+
+@media print, screen and (max-width: 560px) {
+    .face {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 </style>
