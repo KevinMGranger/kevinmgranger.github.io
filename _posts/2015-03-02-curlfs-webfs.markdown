@@ -1,4 +1,7 @@
---- title: On curlFS, webFS ---
+---
+title: On curlFS, webFS
+excerpt: Plans for curlFS, its architecture, and why I want to make it.
+---
 
 ## The Vision
 
