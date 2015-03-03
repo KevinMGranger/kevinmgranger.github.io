@@ -20,7 +20,7 @@
   type: Video Game
   pic: beard_brothers.png
   desc: |
-    A symmetric tower-defence game written in C# using the XNA Framework.
+    A symmetric tower-defense game written in C# using the XNA Framework.
 
     This was a final project for Game Software Development. I served as software architect for our group.
 

@@ -13,7 +13,7 @@ title: Contact Kevin
 [@KevinMGranger](http://twitter.com/KevinMGranger)
 
 <script>
-var k = "kmg", m = "rit", g = "edu";
+var k = "kmg2728", m = "rit", g = "edu";
 var email = k + "@" + m + "." + g;
 document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
 </script>
