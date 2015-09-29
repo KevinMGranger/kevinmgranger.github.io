@@ -9,4 +9,5 @@ defaults:
       type: "posts"
     values:
       layout: post
-      permalink: pretty
+
+permalink: pretty
