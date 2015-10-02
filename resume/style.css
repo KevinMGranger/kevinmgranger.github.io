@@ -79,8 +79,9 @@ hr {
 }
 h1 {
 	font-size: 18px;
-	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
 }
 
 
@@ -99,17 +100,13 @@ h1 {
 .skills > p {
 	text-align: center;
 	margin: 8px auto;
+	word-spacing: 10px;
 }
 .refs > p {
 	margin-top: 16px;
 	text-align: center;
 }
 @media print {
-	.refs > p {
-		margin-top: 5%;
-		margin-left: 0;
-		margin-right: 0;
-	}
 }
 .edu > p {
 	display: flex;
@@ -126,22 +123,30 @@ h1 {
 	display: flex;
 	flex-flow: row wrap;
 }
+.exp > h1 {
+	flex: 1;
+}
 .exp > div {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	margin-bottom: 9px; // used to be on ps
 }
 .exp h2 {
 	font-size: 17px;
 	font-weight: 400;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 8px; // used to be on ps
 }
 .exp h3 {
 	font-size: 16px;
 	font-weight: normal;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+.exp p {
+	margin-top: 4px;
+	margin-bottom: 4px;
 }
 
 
