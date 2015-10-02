@@ -1,10 +1,27 @@
-- name: curlFS
+- name: Proxima
+  url: https://github.com/KevinMGranger/proxima
+  type: Software
+  pic: proxima.png
+  desc: |
+    In Firefox, it's 5 clicks to reach proxy settings. Also, all existing addons are too complex, visually stuck in 2005, or nonfree software.
+    
+    Currently it just toggles between on and off, but I'll be adding more soon.
+
+- name: curlFS / webFS
   type: Software
   desc: |
     It's a common UNIX idiom to represent resources as files. Why can't webpages be the same way?
+    
+    Inspired by [Plan 9's webfs](http://man.cat-v.org/plan_9/4/webfs).
 
-    Written in C++11, curlFS unites [libcurl](http://curl.haxx.se/) and [fuse](http://fuse.sourceforge.net/),
-    so your favorite website is just a "cat" away.
+- name: Chemistry
+  type: Video Game
+  desc: |
+    A chemistry quiz meets a dating sim!?
+    
+    Chemistry is an educational game. Meet ions, get to know them by proving your chemistry knowledge, then match them to their one true pairing-- and see lovely bonds form!
+    
+    Written using C# and Unity.
 
 - name: 30 Silver
   type: Board Game
