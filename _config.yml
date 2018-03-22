@@ -11,3 +11,5 @@ defaults:
       layout: post
 
 permalink: pretty
+sass:
+  sass_dir: styles

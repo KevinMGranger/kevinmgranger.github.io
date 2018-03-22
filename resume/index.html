@@ -1,80 +1,134 @@
+---
+layout: null
+---
 <!DOCTYPE HTML>
 <html>
 <head>
-	<link rel="stylesheet" href="normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 	<link rel="stylesheet" href="style.css">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kevin M. Granger Resume</title>
+	<title>Kevin M Granger Resume</title>
 </head>
 <body>
-	<section class="nametitle">
-		<p class="name">Kevin M. Granger</p>
-		<p class="title">Dev, Ops, &amp; Game Design</p>
-	</section>
-	<section class="contact">
-		<div><span class="icon icon-mail"></span><span class="contactinfo">kmg2728@rit.edu</span></div>
-		<div><span class="icon icon-linkedin-squared"></span><span class="contactinfo">KevinMGranger</span></div>
-		<div><span class="icon icon-globe"></span><span class="contactinfo">kevinmgranger.me</span></div>
-		<div><span class="icon icon-github-circled"></span><span class="contactinfo">KevinMGranger</span></div>
-	</section>
-<hr></hr>
-<section class="edu"><h1>Education</h1>
-	<p>Rochester Institute of Technology (RIT)</p>
-	<p><span>Graduating:</span> <span>December 2015</span></p>
-	<p><span>Major:</span> <span>Game Design &amp; Development</span></p>
-	<p><span>Minor:</span> <span>Computer Science</span></p>
-	<p><span>GPA:</span> <span>3.43</span></p>
-</section>
-<section class="courses"><h1>Coursework</h1>
-	<ul>
-		<li>Game Software Development</li>
-		<li>Humanitarian Free &amp; Open Source Software</li>
-		<li>Programming Language Concepts</li>
-		<li>Concepts of Computer Systems (Comp Org)</li>
-	</ul>
-</section>
+	<header>
+		<section class="nametitle">
+			<p class="name">Kevin M Granger</p>
+			<p class="title">Software Developer &amp; System Designer</p>
+		</section>
+		<section class="contact">
+			<div>
+				<span class="icon icon-mail"></span>
+				<span id="email" class="contactinfo">Requires JS.</span>
+			</div>
+			<div>
+				<span class="icon icon-phone"></span>
+				<span class="contactinfo">{% if site.data.contact.num %} {{site.data.contact.num}} {% else %} Available upon request {% endif %}</span>
+			</div>
+			<div>
+				<span class="icon icon-github-circled"></span>
+				<span class="contactinfo">github: KevinMGranger</span>
+			</div>
+			<div>
+				<span class="icon icon-globe"></span>
+				<span class="contactinfo">kevinmgranger.me</span>
+			</div>
 
-<section class="skills"><h1>Skillset</h1>
-	<p>Bash, C, C++, MySQL, PHP, Go, Javascript, Python, Regular Expressions</p>
-	<p>Linux, Puppet, Git, ZFS, Visual Studio</p>
+		</section>
+	</header>
+<hr></hr>
+
+<section class="skills">
+	<h1>Skillset</h1>
+	<h2>Experienced With</h2>
+	<ul>
+		<li>C / C++ (98/03, 11, 14)</li>
+		<li>Python</li>
+		<li>Rust</li>
+		<li>Javascript</li>
+		<li>Regular Expressions</li>
+		<li>Bash</li>
+		<li>Linux*</li>
+		<li>Ansible*</li>
+		<li>Git</li>
+		<li>SQLite</li>
+		<li>Vim</li>
+		<li>Visual Studio Code</li>
+	</ul>
+	<h2>Have Used</h2>
+	<ul>
+		<li>Go</li>
+		<li>PHP</li>
+		<li>MIPS Assembly</li>
+		<li>Java</li>
+		<li>C#</li>
+		<li>Acme Editor</li>
+		<li>Docker</li>
+		<li>ZFS</li>
+		<li>MySQL</li>
+	</ul>
+	<p>*Red Hat Certified System Administrator. Red Hat Certificate of Expertise in Ansible.</p>
 </section>
 
 <section class="exp">
 	<h1>Employment</h1>
 	<div>
-		<h2>Box &ndash; Site Reliability Intern</h2> <h3>June 2015 &ndash; August 2015</h3>
-		<p>Used PHP and Python for an experimental project, to gain and track reporting and analytics for on-call alerts. Worked with existing open source solutions for the project.</p>
+		<h2>Red Hat &ndash; Technical Consultant</h2>
+		<h3>February 2016 &ndash; Present</h3>
+		<p>
+			Analyzed and improved throughput of performance-critical C++ messaging application in a resource-constrained environment.
+			<br/>Developed libraries suitable for newcomers to C++.
+			<br/>Integrated distributed message tracing solution.
+		</p>
 	</div>
 	<div>
-		<h2>Datto, Inc. &ndash; Developer Intern</h2> <h3>June 2014 &ndash; May 2015</h3>
-		<p>Used PHP and Bash to develop software for business continuity and backup devices. Architected and developed software for partner/customer-facing portals.</p>
-	</div>
-	<h1>Projects &amp; Involvement</h1>
-	<div>
-		<h2>Chemistry</h2> <h3>April 2015 &ndash; May 2015</h3>
-		<p>Used C# and Unity to make an interactive teaching game. Contributed to group leadership, vision, and architecture.</p>
-	</div>
-	<div>
-		<h2>Open Source Projects &amp; Contributions</h2> <h3 style="width: 50%"><!-- this is a hack. womp. --></h3>
-		<p>Contributed to <em>goproxy</em>, a configurable proxy library written in Go.</p>
-		<p>Contributed to <em>Monolog</em>, a popular PHP logging framework with over 17.5 million installs.</p>
-		<p>Created <em>Proxima</em>, a Firefox extension for easily changing proxy settings.</p>
+		<h2>Box &ndash; Site Reliability Intern</h2>
+		<h3>June 2015 &ndash; August 2015</h3>
+		<p>
+			Used PHP and Python for an experimental SRE on-call alert reporting and analytics project.
+			<br/>Worked with existing open source solutions for the project.
+		</p>
 	</div>
 	<div>
-		<h2>RIT Linux Users Group</h2> <h3>September 2010 &ndash; Winter 2013</h3>
+		<h2>Datto, Inc. &ndash; Developer Intern</h2>
+		<h3>June 2014 &ndash; May 2015</h3>
+		<p>
+			Used PHP and Bash to develop software for business continuity &amp; backup devices.
+			<br/>Architected and developed software for partner/customer-facing portals and notification services.
+		</p>
+	</div>
+</section>
+<section class="exp">
+	<h1>Open Source Involvement</h1>
+	<div>
+		<h2>Open Source Contributions</h2>
+		<p>Contributed to
+			<em>zipkin-opentracing-cpp</em>, the zipkin client implementation of the OpenTracing specification in C++.</p>
+		<p>Contributed to
+			<em>goproxy</em>, a configurable proxy library written in Go.</p>
+		<p>Contributed to
+			<em>Monolog</em>, a popular PHP logging framework with over 17.5 million installs.</p>
+	</div>
+	<div>
+		<h2>RIT Linux Users Group</h2>
+		<h3>September 2010 &ndash; Winter 2013</h3>
 		<p>Served as President and Vice President. Oversaw installation and use of server resources.</p>
 	</div>
+</section>
+<section class="exp">
+	<h1>Education</h1>
 	<div>
-		<h2>Sigma Chi Fraternity</h2> <h3>April 2011 &ndash; Present</h3>
-		<p>Served as Vice President, Risk Manager, Chapter Editor, and Sergeant at Arms. Attended Balfour Leadership Training Workshop in August 2013. Attended Horizons Leadership &amp; Personal Development retreat in August 2011.</p>
+		<h2>Rochester Institute of Technology</h2>
+		<h3>Graduated December 2015</h3>
+		<p>B.S. in Game Design &amp; Development, minor in Computer Science.</p>
+		<p>Coursework included Data Structures &amp; Algorithms, Humanitarian Free &amp; Open Source Software, Programming Language
+			Concepts, and Concepts of Computer Systems (Comp Org).</p>
 	</div>
 </section>
-
-<section class="refs">
-	<p>References available upon request. Github available at http://github.com/KevinMGranger</p>
-</section>
 </body>
+<script>
+	var k = "hi", m = "kevinmgranger", g = "me";
+	document.getElementById("email").innerHTML = k + "@" + m + "." + g;
+	</script>
+
 </html>
