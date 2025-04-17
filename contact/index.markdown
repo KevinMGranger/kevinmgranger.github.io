@@ -13,7 +13,7 @@ title: Contact Kevin
 If you're a recruiter, we can exchange numbers after talking over email.
 
 <script>
-var k = "hi", m = "kevinmgranger", g = "me";
+var k = "hi", m = "kmg", g = "fyi";
 var email = k + "@" + m + "." + g;
 document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
 </script>
