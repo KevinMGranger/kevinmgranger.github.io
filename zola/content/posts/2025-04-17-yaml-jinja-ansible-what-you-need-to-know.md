@@ -1,6 +1,8 @@
----
-title: What You Need to Know About YAML and Jinja in Ansible
----
++++
+title = "What You Need to Know About YAML and Jinja in Ansible"
+date = 2025-04-17
+draft = true
++++
 
 These technologies all seem simple on the surface,
 and easy enough to learn through examples.
