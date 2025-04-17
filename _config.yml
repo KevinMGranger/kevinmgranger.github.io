@@ -13,3 +13,5 @@ defaults:
 permalink: pretty
 sass:
   sass_dir: styles
+
+theme: minima
